@@ -1,6 +1,10 @@
 # ts-transformer-joi
 A TypeScript custom transformer generating Joi schemas from interface info
 
+[![NPM version][npm-image]][npm-url]
+[![Downloads](https://img.shields.io/npm/dm/ts-transformer-joi.svg)](https://www.npmjs.com/package/ts-transformer-joi)
+
+
 # Requirement
 TypeScript >= 2.4.1
 
