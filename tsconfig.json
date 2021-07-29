@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ES2019",
+    "module": "CommonJS",
+    "strict": true,
+    "noEmitOnError": true,
+    "noImplicitReturns": false,
+    "esModuleInterop": true,
+    "types": ["node"],
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "outDir": "./lib"
+  },
+  "include": [
+    "transformer.ts",
+    "index.ts",
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
