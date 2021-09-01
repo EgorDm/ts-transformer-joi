@@ -16,7 +16,9 @@
   },
   "files": [
     "transformer.ts",
-    "lib/transformer.js"
+    "lib/transformer.js",
+    "schema_builder.ts",
+    "lib/schema_builder.js"
   ],
   "author": "Egor Dmitriev",
   "license": "MIT"
