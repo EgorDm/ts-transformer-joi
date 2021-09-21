@@ -8,6 +8,10 @@ export default function transformer(program: ts.Program): ts.TransformerFactory<
       return file;
     }
 
+    if(file.fileName.endsWith('json')) {
+      return file;
+    }
+
     const update = ts.updateSourceFileNode(file, [
       ts.createImportDeclaration(
         undefined,
