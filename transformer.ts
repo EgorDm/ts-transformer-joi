@@ -8,7 +8,7 @@ export default function transformer(program: ts.Program): ts.TransformerFactory<
       return file;
     }
 
-    if(file.fileName.endsWith('json')) {
+    if(!file.fileName.endsWith('ts')) {
       return file;
     }
 
